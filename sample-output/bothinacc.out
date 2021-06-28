@@ -1,0 +1,138 @@
+Corpus probabilities input file is input/corpusprobabilities.txt
+Observed expt responses input file is input/exptobserved.txt
+Output file is bothinacc.out
+Model type is 4
+0.2 <= sigma_prior <= 0.2 by 0.2
+0.1 <= sigma_form <= 0.3 by 0.2
+0.3 <= sigma_con <= 0.6 by 0.3
+0.4 <= sigma_mor <= 0.6 by 0.2
+0.0 <= beta_prior <= 0.2 by 0.2
+0.0 <= beta_form <= 0.5 by 0.5
+0.6 <= beta_con <= 0.9 by 0.3
+0.4 <= beta_mor <= 0.8 by 0.2
+Top 5 model parameter settings stored
+Only doing age adult
+Corpus prior probabilities:
+anteNonPl: 0.1286089
+anteNonSg: 0.4383202
+anteSubjPl: 0.07086614
+anteSubjSg: 0.3622047
+Corpus likelihood probabilities:
+DespNonPl: 0.393939394
+DespNonSg: 0.131868132
+DespSubjPl: 0.75
+DespSubjSg: 0.323943662
+NullNonPl: 0.9591837
+NullNonSg: 0.8169376
+NullSubjPl: 0.984127
+NullSubjSg: 0.9378882
+OvertNonPl: 0.04081633
+OvertNonSg: 0.1830624
+OvertSubjPl: 0.01587302
+OvertSubjSg: 0.0621118
+PlNonPl: 0.994752624
+PlNonSg: 0.001588983
+PlSubjPl: 0.994752624
+PlSubjSg: 0.001588983
+PorqNonPl: 0.606060606
+PorqNonSg: 0.868131868
+PorqSubjPl: 0.25
+PorqSubjSg: 0.676056338
+SgNonPl: 0.005247376
+SgNonSg: 0.998411017
+SgSubjPl: 0.005247376
+SgSubjSg: 0.998411017
+age connective form morphology subj_morph nonsubj_morph num_subj_resp num_nonsubj_resp
+3 despues null sg sg pl 22 39
+3 despues null pl pl sg 46 23
+3 porque overt sg pl sg 27 25
+3 porque overt pl sg pl 18 59
+3 despues null sg pl sg 10 9
+3 despues null pl sg pl 9 6
+3 porque overt sg sg pl 6 11
+3 porque overt pl pl sg 8 8
+3 porque null sg sg pl 7 18
+3 porque null pl pl sg 16 12
+3 despues overt sg pl sg 9 7
+3 despues overt pl sg pl 14 23
+3 despues overt sg sg pl 13 10
+3 despues overt pl pl sg 15 6
+3 porque null sg pl sg 9 11
+3 porque null pl sg pl 7 16
+4 despues null sg sg pl 22 39
+4 despues null pl pl sg 47 28
+4 porque overt sg pl sg 31 37
+4 porque overt pl sg pl 8 64
+4 despues null sg pl sg 14 15
+4 despues null pl sg pl 6 13
+4 porque overt sg sg pl 14 13
+4 porque overt pl pl sg 12 9
+4 porque null sg sg pl 8 9
+4 porque null pl pl sg 19 8
+4 despues overt sg pl sg 11 14
+4 despues overt pl sg pl 4 19
+4 despues overt sg sg pl 12 16
+4 despues overt pl pl sg 15 2
+4 porque null sg pl sg 9 11
+4 porque null pl sg pl 2 18
+5 despues null sg sg pl 23 31
+5 despues null pl pl sg 43 15
+5 porque overt sg pl sg 17 35
+5 porque overt pl sg pl 9 52
+5 despues null sg pl sg 13 8
+5 despues null pl sg pl 5 14
+5 porque overt sg sg pl 16 9
+5 porque overt pl pl sg 6 6
+5 porque null sg sg pl 3 9
+5 porque null pl pl sg 15 7
+5 despues overt sg pl sg 7 8
+5 despues overt pl sg pl 3 17
+5 despues overt sg sg pl 12 8
+5 despues overt pl pl sg 15 4
+5 porque null sg pl sg 6 17
+5 porque null pl sg pl 3 14
+adult despues null sg sg pl 79 8
+adult despues null pl pl sg 91 6
+adult porque overt sg pl sg 10 86
+adult porque overt pl sg pl 5 83
+adult despues null sg pl sg 14 20
+adult despues null pl sg pl 14 20
+adult porque overt sg sg pl 23 8
+adult porque overt pl pl sg 24 13
+adult porque null sg sg pl 16 4
+adult porque null pl pl sg 31 9
+adult despues overt sg pl sg 2 21
+adult despues overt pl sg pl 5 32
+adult despues overt sg sg pl 27 6
+adult despues overt pl pl sg 20 3
+adult porque null sg pl sg 6 30
+adult porque null pl sg pl 2 18
+Model type 4: Both inaccurate
+0.2 <= sigma_prior <= 0.2 by 0.2
+0.1 <= sigma_form <= 0.3 by 0.2
+0.3 <= sigma_con <= 0.6 by 0.3
+0.4 <= sigma_mor <= 0.6 by 0.2
+0.0 <= beta_prior <= 0.2 by 0.2
+0.0 <= beta_form <= 0.5 by 0.5
+0.6 <= beta_con <= 0.9 by 0.3
+0.4 <= beta_mor <= 0.8 by 0.2
+Getting top 5 options
+M for BIC calculation is 8
+Only doing age adult
+Model type 4: Both inaccurate, m = 8
+age adult top 5 logprob and BICs
+	sigma_prior	sigma_for	sigma_con	sigma_mor	beta_prior	beta_for	beta_con	beta_mor	logprob	BIC
+0	0.2	0.3	0.6	0.4	0.2	0.5	0.6	0.8	-309.28613	671.38209
+1	0.2	0.3	0.6	0.4	0.2	0.5	0.9	0.8	-309.30251	671.41487
+2	0.2	0.3	0.6	0.4	0.0	0.5	0.9	0.8	-309.35399	671.51781
+3	0.2	0.3	0.6	0.4	0.0	0.5	0.6	0.8	-309.35688	671.52359
+4	0.2	0.3	0.3	0.4	0.0	0.5	0.9	0.8	-310.10618	673.0222
+	sigma_prior: 0.2-0.2
+	sigma_for: 0.30000000000000004-0.30000000000000004
+	sigma_con: 0.3-0.6
+	sigma_mor: 0.4-0.4
+	beta_prior: 0.0-0.2
+	beta_for: 0.5-0.5
+	beta_con: 0.6-0.8999999999999999
+	beta_mor: 0.8000000000000002-0.8000000000000002
+

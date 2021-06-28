@@ -1,0 +1,39 @@
+# priors from corpus data, S = Subject, NS = Non-Subject
+anteSSg 0.3622047 # a=Subj Sg
+anteSPl 0.07086614 # a=Subj Pl
+anteNSSg 0.4383202 # a=Non-Subj Sg
+anteNSPl 0.1286089 # a=Non-Subj Pl
+# likelihoods from corpus data, arranged to follow order in table in paper
+# first row: Subj Sg (form, connective, morphology)
+Null_giv_anteSSg 0.9378882 # a=Subj Sg, for=null|a
+Overt_giv_anteSSg 0.0621118 #a=Subj Sg, for=overt|a
+Desp_giv_anteSSg 0.323943662 # a=Subj Sg, con=despues|a
+Porq_giv_anteSSg 0.676056338 #a=Subj Sg, con=porque|a
+Sg_giv_anteSSg 0.998411017 # a=Subj Sg, mor=Sg|a
+Pl_giv_anteSSg 0.001588983 #a=Subj Sg, mor=Pl|a
+# second row: Subj Pl (form, connective, morphology)
+Null_giv_anteSPl 0.984127 # a=Subj Pl, for=null|a
+Overt_giv_anteSPl 0.01587302 # a=Subj Pl, for=overt|a
+Desp_giv_anteSPl 0.75 # a=Subj Pl, con=despues|a
+Porq_giv_anteSPl 0.25 # a=Subj Pl, con=porque|a
+Sg_giv_anteSPl 0.005247376 # a=Subj Pl, mor=Sg|a
+Pl_giv_anteSPl 0.994752624 # a=Subj Pl, mor=PL|a
+# third row: Non-Subj Sg (form, connective, morphology)
+Null_giv_anteNSSg 0.8169376 # a=Non-Subj Sg, for=null|a
+Overt_giv_anteNSSg 0.1830624 # a=Non-Subj Sg, for=overt|a
+Desp_giv_anteNSSg 0.131868132 # a=Non-Subj Sg, con=despues|a
+Porq_giv_anteNSSg 0.868131868 # a=Non-Subj Sg, con=porque|a
+Sg_giv_anteNSSg 0.998411017 # a=Non-Subj Sg, mor=Sg|a
+Pl_giv_anteNSSg 0.001588983 # a=Non-Subj Sg, mor=Pl|a
+# fourth row: Non-Subj Pl (form, connective, morphology)
+Null_giv_anteNSPl 0.9591837 # a=Non-Subj Pl, for=null|a
+Overt_giv_anteNSPl 0.04081633 #a=Non-Subj Pl, for=overt|a
+Desp_giv_anteNSPl 0.393939394 #a=Non-Subj Pl, con=despues|a
+Porq_giv_anteNSPl 0.606060606 #a=Non-Subj Pl, con=porque|a
+Sg_giv_anteNSPl 0.005247376 # a=Non-Subj Pl, mor=Sg|a
+Pl_giv_anteNSPl 0.994752624 # a=Non-Subj Pl, mor=Pl|a
+
+
+
+
+
