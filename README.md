@@ -1,5 +1,8 @@
+# behavioralstats code
+R code of behavioral stats analysis
+
 # pronoun-interpretation-code
-Code related to Bayesian model variants for child and adult pronoun interpretation behavior
+Python code related to Bayesian model variants for child and adult pronoun interpretation behavior
 
 ### Readme file for pronouninterpretationmodels.py python code, 
 which is used to
