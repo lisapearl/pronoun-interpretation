@@ -7,11 +7,11 @@ which is used to
     pronoun interpretation behavior in experiments with children
     and adults.
 
-### Updated by Lisa Pearl, June 2021 ###
+### Updated by Lisa Pearl, December 2025 ###
 
 *If using this code, please cite the following paper:*
 
-Pearl, Lisa & Forsythe, Hannah. 2021. Manuscript. Inaccurate representations, inaccurate deployment, or both?
+Pearl, Lisa & Forsythe, Hannah. 2025. Manuscript. Learning to be inaccurate like an adult:
 Using computational cognitive modeling to investigate the development of pronoun interpretation in Spanish.
 University of California, Irvine.
 
